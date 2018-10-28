@@ -1,0 +1,64 @@
+body{background-color:#000; font-family: Arial;}
+.wrapping{
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+}
+.main{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+width:280px;
+height:500px;
+background-color:#454a4e;
+background: linear-gradient(to bottom, #BC6330, #454a4e);
+border-radius:6px;
+}
+.input{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+input{ 
+width:254px;
+height:60px;
+border:none;
+font-size:20px;
+box-shadow: 0 0 8px #000;
+outline:none;
+margin-bottom:30px;
+}
+.buttons{
+width:300px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+}
+button{
+height:60px;
+width:60px;
+margin:3px;
+border: none;
+background-color:#17202a;
+color:#fff;
+font-size:16px;
+outline:none;
+}
+button:hover{
+box-shadow:0 0 15px #000 inset;
+}
+.clear{
+background-color:#e74c3c
+color:#fafbfc;
+}
+.equally{
+background-color:#e96012;
+}
